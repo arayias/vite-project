@@ -27,6 +27,7 @@ canvas {
   /* 3 rows * 3 columns */
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  outline: 2px solid black;
 }
 
 .face-color {

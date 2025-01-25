@@ -522,9 +522,9 @@ let moveMap = {
     edges: [
       // cycle: U -> B -> D -> F -> U
       { face: 0, row: [6, 7, 0] }, // left column of U
-      { face: 2, row: [6, 7, 0] }, // right column of B?
-      { face: 3, row: [6, 7, 0] }, // left column of D?
-      { face: 5, row: [6, 7, 0] }, // left column of F
+      { face: 2, row: [6, 7, 0] }, // left column of F
+      { face: 3, row: [6, 7, 0] }, // left column of D
+      { face: 5, row: [2, 3, 4] }, // right column of B
     ],
   },
 
@@ -540,7 +540,7 @@ let moveMap = {
     edges: [
       // cycle: U -> F -> D -> B -> U
       { face: 0, row: [2, 3, 4] }, // right column of U
-      { face: 5, row: [2, 3, 4] }, // left column of B?  (Be sure to check orientation.)
+      { face: 5, row: [6, 7, 0] }, // left column of B
       { face: 3, row: [2, 3, 4] }, // right column of D
       { face: 2, row: [2, 3, 4] }, // right column of F
     ],
